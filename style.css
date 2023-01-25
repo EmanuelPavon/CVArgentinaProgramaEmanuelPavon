@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    
+    
+}   
+    #cabecera{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 196px;
+        max-height: 196px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    body {
+        background-color: rgba(199, 222, 241, 0.377)!important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        background-color: rgb(79, 79, 110);
+        font-family: 'Roboto', sans-serif;
+        font-style: bold;
+        text-align: center;
+        text-transform: uppercase;
+        color: #cfc7e6;
+    }
+
+    h2 {
+        color: rgb(69, 69, 97);
+        font-family: 'Roboto', sans-serif;
+        font-style: bold;
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px;
+        
+       
+    }
+
+    p { 
+        font-style: bold;
+        
+       
+        
+    
+        
+    }
+
+    button {
+        transition-duration: 0.4s;
+        background-color: rgb(69, 69, 98);
+        border: none;
+        color: #cfc7e6;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif!important;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 4px!important;
+    }
+      
+    button:hover {
+        background-color: rgb(170, 152, 235); 
+        color: white;
+    }
+
+    button:active {
+        background-color: #7206ff;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px; 
+         }
+      
+    .card:hover{
+        box-shadow: 0 8px 16px 0 rgba(69, 69, 98);
+        }
+    
+    
+     @media screen and (min-width: 799px) {  
+            .container{ 
+                
+                display: inline-block;
+                text-indent: 10px;
+                text-align: center;
+                }
+            #containercontacto{
+                
+                display: inline-block;
+            
+                }
+
+            #containerbotones{
+                display: inline-flex;
+                gap: 12px;
+            }
+            .infosection{
+                margin: 16px auto;
+
+            }
+
+            
+        
+        }
+
+
+        @media screen and (max-width: 668px) {  
+
+            .container{ 
+                
+                display: inline-block;
+                text-indent: 10px;
+                text-align: center;
+                }
+            #containercontacto{
+                
+                display: inline-block;
+            
+                }
+
+            #containerbotones{
+                display: inline-flex;
+                gap: 12px;
+            }
+            .infosection{
+                margin: 16px auto;
+
+            }
+        }
+          
+
+
+    footer{
+        background-color: rgb(79, 79, 110);
+        font-family: 'Roboto', sans-serif;
+        font-style: bold;
+        text-align: end;
+        text-transform: uppercase;
+        color: #cfc7e6;
+        margin:0px auto;
+        
+
+    }
+
+
+
+          
